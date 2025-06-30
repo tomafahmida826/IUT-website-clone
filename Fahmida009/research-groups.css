@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+header {
+  background: #003d33;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header p {
+  margin: 5px 0;
+  font-size: 0.9em;
+}
+
+.main-nav {
+  background: #004d40;
+}
+
+.main-nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.main-nav li {
+  margin: 0 15px;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.layout {
+  display: flex;
+  padding: 20px;
+}
+
+.sidebar {
+  width: 220px;
+  background: white;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+  color: #004d40;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #00695c;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background: #fff;
+}
+
+.lab {
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+}
+
+.lab img {
+  width: 120px;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.lab h2 {
+  margin: 0;
+  color: #004d40;
+}
+
+footer {
+  background: #003d33;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}

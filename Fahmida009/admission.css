@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .hero {
+    background: url('campus.jpg') no-repeat center center/cover;
+    height: 300px;
+    color: white;
+    text-align: center;
+    position: relative;
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    padding-top: 50px;
+  }
+  
+  .admission-banner {
+    background-color: #900040;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  .navbar {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .about, .programs {
+    background: #fff;
+  }
+  
+  .programs ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .vc-message {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: #f9f9f9;
+  }
+  
+  .vc-photo {
+    max-width: 300px;
+    margin: 20px;
+    border: 3px solid #e0e0e0;
+    border-radius: 8px;
+  }
+  
+  .message-text {
+    max-width: 600px;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background: #333;
+    color: white;
+  }
+  
+  footer {
+    background: #eaeaea;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  footer p {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+  }
+  
